@@ -11,8 +11,8 @@ Install MadDisplay and the adapter for your controller, for example MadSSD1306
 or MadILI9341. The adapter may require its own hardware driver dependency.
 
 ```cpp
-#include <MadDisplay/MadDisplay.hpp>
-#include <MadSSD1306/MadSSD1306.hpp>
+#include <MadDisplay.h>
+#include <MadSSD1306.h>
 
 mad::SSD1306 adapter;
 mad::Display<mad::SSD1306> display(adapter);
@@ -167,7 +167,7 @@ PlatformIO (`platformio.ini`):
 
 ```ini
 lib_deps =
-  https://github.com/Astonikum/display-lib.git#v0.7.0
+  https://github.com/Astonikum/display-lib.git#v0.7.1
 ```
 
 The core has no hardware, vendor driver or adapter dependencies.

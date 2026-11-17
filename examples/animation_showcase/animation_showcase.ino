@@ -1,4 +1,5 @@
-#include <MadSSD1306/MadSSD1306.hpp>
+#include <MadDisplay.h>
+#include <MadSSD1306.h>
 #include "showcase.hpp"
 
 mad::SSD1306 oled;

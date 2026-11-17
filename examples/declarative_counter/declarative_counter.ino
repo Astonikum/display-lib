@@ -1,5 +1,5 @@
-#include <MadDisplay/MadDisplay.hpp>
-#include <MadSSD1306/MadSSD1306.hpp>
+#include <MadDisplay.h>
+#include <MadSSD1306.h>
 
 mad::SSD1306 adapter;
 mad::Display<mad::SSD1306> display(adapter);

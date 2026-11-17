@@ -1,6 +1,6 @@
 {
   "name": "MadDisplay",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "description": "Composable display UI, color rendering, Unicode text layouts and motion.",
   "frameworks": "*",
   "platforms": "*",
