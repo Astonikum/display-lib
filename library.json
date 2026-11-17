@@ -1,0 +1,21 @@
+{
+  "name": "MadDisplay",
+  "version": "0.7.0",
+  "description": "Composable display UI, color rendering, Unicode text layouts and motion.",
+  "frameworks": "*",
+  "platforms": "*",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Astonikum/display-lib.git"
+  },
+  "homepage": "https://github.com/Astonikum/display-lib",
+  "authors": [
+    {
+      "name": "Astonikum",
+      "url": "https://github.com/Astonikum"
+    }
+  ],
+  "build": {
+    "includeDir": "src"
+  }
+}
